@@ -6,6 +6,8 @@ Git commits work like so:
   2. Stage the change
   3. Commit the change
 
+## Before staging
+
 To view all changed and staged files:
 
     git status
@@ -22,7 +24,7 @@ To UNDO all changes to a file and return it to how it was the last time it was c
 
     git restore <filename>
 
---------------------------------------------------------------------------------
+## Staging
 
 To stage all changes within the current directory and its children (use with caution; consider splitting up commits based on their purposes):
 
@@ -40,7 +42,7 @@ To un-stage changes without undoing the changes on disk (will not lose data; not
 
     git rm --cached <filename>
 
---------------------------------------------------------------------------------
+## Committing
 
 To commit all staged changes:
 
@@ -53,6 +55,8 @@ To commit all staged changes with a long message (will open $EDITOR; you can lea
 To revert a commit:
 
 > Just try not to get to this point; it's kinda scary and I still have trouble with it/haven't done it properly yet
+
+## Reviewing
 
 To view commit history:
 

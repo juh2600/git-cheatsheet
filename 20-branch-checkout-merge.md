@@ -10,7 +10,7 @@ Git branches aren't really "branches"; they're labels that point to commits, and
 
 NB: There is also an operation called "rebase". It serves a purpose similar to merge, but functions differently. I haven't used it in practice.
 
---------------------------------------------------------------------------------
+## Branching
 
 To list currently available branches:
 
@@ -32,7 +32,7 @@ To merge another branch into this one (both labels will now point to the same co
 
     git merge <branch-name>
 
---------------------------------------------------------------------------------
+## Reviewing
 
 To list the commits in a branch:
 

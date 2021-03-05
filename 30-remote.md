@@ -32,13 +32,15 @@ Step 3 is usually automatic. There is seldom a reason to perform 3.1 and 3.2 sep
     SSH: git@github.com:username/reponame.git
     HTTPS: https://github.com/username/reponame.git
 
---------------------------------------------------------------------------------
+## Configuring remotes
+
+### Cloning
 
 To clone a repo:
 
     git clone <url>
 
---------------------------------------------------------------------------------
+### Editing remotes
 
 To list remotes:
 
@@ -56,7 +58,7 @@ To remove a remote:
 
     git remote remove <remote-name>
 
---------------------------------------------------------------------------------
+## Stashing
 
 To stash changes (like a temporary commit; this saves changes to be re-applied later and resets the files on disk to the latest commit):
 
@@ -66,7 +68,7 @@ To apply the latest stash (restore changes):
 
     git stash pop
 
---------------------------------------------------------------------------------
+## Pulling and pushing
 
 If the following commands ask you to use an option similar to "--set-upstream", follow those directions that time. This is normal the first time a branch is pushed or pulled.
 
