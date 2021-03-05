@@ -5,7 +5,7 @@ Git remotes let you back up and share a repository using a remote server. They w
   1. A local repo exists on your hard drive
   2. A remote repo exists in The Cloud (could be a company internal server)
   3. A local repo has a list of remotes, which consist of a name and a URL
-  4. When a local repo has just one remote, it is typically named "origin"
+  4. When a local repo has just one remote, it is typically named `origin`
 
 If the remote repo exists first:
 

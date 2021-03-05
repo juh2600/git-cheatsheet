@@ -6,7 +6,7 @@ Git branches aren't really "branches"; they're labels that point to commits, and
   2. Create a branch (e.g. `new-branch`) to work on a feature or topic; this branch will start wherever you are when you create it (like...a tree branch)
   3. Make changes and commits to this new branch; the chain of commits between the `master` and the `new-branch` labels will grow longer. `new-branch` moves to keep up with each new commit
   4. "Check out" the old branch: switch over to that branch; all tracked files on disk will be changed to whatever they are on that branch
-  5. Merge the `new-branch` into the current branch: all the changes made since the new branch diverged will be summed up and applied to the current state of master
+  5. Merge the `new-branch` into the current branch: all the changes made since the new branch diverged will be summed up and applied to the current state of `master`
 
 NB: There is also an operation called "rebase". It serves a purpose similar to merge, but functions differently. I haven't used it in practice.
 
