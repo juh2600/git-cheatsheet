@@ -1,3 +1,5 @@
+# Remotes
+
 Git remotes let you back up and share a repository using a remote server. They work like so:
 
   1. A local repo exists on your hard drive
@@ -83,3 +85,4 @@ To merge the changes from the remote's copy of this branch into the local copy o
 To push changes:
 
     git push
+

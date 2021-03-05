@@ -1,3 +1,5 @@
+# Branching and Merging
+
 Git branches aren't really "branches"; they're labels that point to commits, and commits point to the commits before them (their parents). You can explore the history of the branch by travelling along the chain of commits. As you add commits, the head of the branch (the label) moves to point to the latest commit. (Reverting does not work by moving the head backward! A revert is a new commit with changes that undo the [un]desired commits.) Branch management works like so:
 
   1. There's a default branch (formerly `master`; new versions of Git use `main`)
@@ -39,3 +41,4 @@ To list the commits in a branch:
 To explore the repo at some point in history (DETACHED HEAD mode; you're floating around the DAG instead of keeping up with a branch):
 
     git checkout <commit-hash>
+

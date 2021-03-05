@@ -1,3 +1,5 @@
+# Commits
+
 Git commits work like so:
 
   1. Create/edit/delete a file
@@ -59,3 +61,4 @@ To view commit history:
 To view the history of changes made by each commit (optionally just to one file):
 
     git log -p [<filename>]
+
