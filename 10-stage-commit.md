@@ -24,6 +24,10 @@ To UNDO all changes to a file and return it to how it was the last time it was c
 
     git restore <filename>
 
+To stop tracking a file but leave it on your disk (WILL REMOVE the file from remote and others' disks when they pull changes):
+
+    git rm --cached <filename>
+
 ## Staging
 
 To stage all changes within the current directory and its children (use with caution; consider splitting up commits based on their purposes):
@@ -38,9 +42,13 @@ To choose which changes to stage (this is an interactive process; specify an opt
 
     git add -p [<filename>]
 
-To un-stage changes without undoing the changes on disk (will not lose data; note the `--cached`, very important):
+To un-stage all changes without undoing the changes on disk (will not lose data):
 
-    git rm --cached <filename>
+    git reset --soft
+
+To un-stage one file's changes without undoing the changes on disk (will not lose data):
+
+    git restore --staged <filename>
 
 ## Committing
 
