@@ -70,7 +70,7 @@ To apply the latest stash (restore changes):
 
 ## Pulling and pushing
 
-If the following commands ask you to use an option similar to "--set-upstream", follow those directions that time. This is normal the first time a branch is pushed or pulled.
+If the following commands ask you to use an option similar to `--set-upstream`, follow those directions that time. This is normal the first time a branch is pushed or pulled.
 
 To pull (automatic fetch + merge):
 
