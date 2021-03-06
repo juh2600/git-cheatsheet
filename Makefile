@@ -4,7 +4,7 @@ IN_FMT = md
 OUT_FMT = pdf
 OUT_NAME = git-cheatsheet
 
-SRCS = $(wildcard *.md)
+SRCS = $(wildcard *.$(IN_FMT))
 OUTS = $(OUT_NAME).$(IN_FMT) $(OUT_NAME).$(OUT_FMT)
 
 build : $(SRCS)
