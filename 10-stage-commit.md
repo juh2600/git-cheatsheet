@@ -60,6 +60,14 @@ To commit all staged changes with a long message (will open $EDITOR; you can lea
 
     git commit
 
+To add any staged changes to the last commit (if you forgot something):
+
+    git commit --amend
+
+To add any staged changes and edit the message of the last commit:
+
+    git commit --amend -m "describe git commands and add headings"
+
 To revert a commit:
 
 > Just try not to get to this point; it's kinda scary and I still have trouble with it/haven't done it properly yet
