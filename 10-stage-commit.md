@@ -56,7 +56,7 @@ To commit all staged changes:
 
     git commit -m "describe git commands"
 
-To commit all staged changes with a long message (will open $EDITOR; you can leave multiline messages there):
+To commit all staged changes with a long message (will open `$EDITOR`; you can leave multiline messages there):
 
     git commit
 
