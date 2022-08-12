@@ -20,10 +20,10 @@ To share work:
   1. Check out the appropriate branch (whatever you want to eventually push)
   2. Commit or stash any changes
   3. Pull changes from the remote
-    1. Fetch changes from the remote
-    2. Merge the remote's changes into your local branch
-      1. Resolve any merge conflicts by editing the affected files
-      2. Commit the changes to complete the merge
+  		1. Fetch changes from the remote
+  		2. Merge the remote's changes into your local branch
+  			1. Resolve any merge conflicts by editing the affected files	
+  			2. Commit the changes to complete the merge
   4. Push changes to the remote
   5. If you stashed changes in step 2, pop the stash to restore them
 
@@ -87,4 +87,3 @@ To merge the changes from the remote's copy of this branch into the local copy o
 To push changes:
 
     git push
-

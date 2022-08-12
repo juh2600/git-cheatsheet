@@ -82,3 +82,6 @@ To view the history of changes made by each commit (optionally just to one file)
 
     git log -p [<filename>]
 
+To view a summarized commit history as a graph (either all commits or just the current commit):
+
+    git log --oneline --graph [--all]
